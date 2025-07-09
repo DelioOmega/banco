@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco Avanza</title>
+  <link rel="stylesheet" href="banco.css">
+  <link rel="icon" href="Imagenes/logo-banco.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <h1>BANCO <br><span>AVANZA</span></h1>
+    </div>
+    <div class="mascotas-iconos">
+      <img src="imagba/mora.gif" alt="Logo Banco">
+    </div>
+  </header>
+
+  <nav>
+    <a href="banco.html">Inicio</a>
+    <a href="cuantas.html">Cuentas</a>
+    <a href="credito.html">Créditos</a>
+    <a href="inversion.html">Inversiones</a>
+    <a href="c">Contacto</a>
+  </nav>
+
+  <main>
+    <section class="info-box">
+      <h2>Abre tu cuenta de ahorros</h2>
+      <div class="contenido">
+        <p>Gestiona tu dinero de forma segura y con beneficios exclusivos. Sin cuota de manejo y acceso total desde tu celular.</p>
+        <img src="imagba/sttr.png" alt="Cuenta de ahorros">
+      </div>
+      <a href="#">Más información</a>
+    </section>
+
+    <section class="info-box">
+      <h2>Solicita tu tarjeta de crédito</h2>
+      <div class="contenido">
+        <p>Disfruta de descuentos, cuotas sin interés y acumula puntos por tus compras. Solicítala en minutos.</p>
+        <img src="imagba/trajeta.webp" alt="Tarjeta de crédito">
+      </div>
+      <a href="#">Más información</a>
+    </section>
+
+   <aside class="formulario">
+  <h2>Solicita tu producto financiero</h2>
+  <form>
+    <div class="campo">
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+    </div>
+
+    <div class="campo">
+      <label for="id">Número de identificación</label>
+      <input type="text" id="id" name="id" placeholder="Ej: 1234567890" required>
+    </div>
+
+    <div class="campo">
+      <label for="producto">Tipo de producto</label>
+      <select id="producto" name="producto" required>
+        <option value="">Seleccione...</option>
+        <option value="cuenta">Cuenta de Ahorros</option>
+        <option value="credito">Crédito</option>
+        <option value="inversion">Inversión</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+    </div>
+
+    <div class="campo">
+      <label for="telefono">Teléfono de contacto</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="Ej: 3001234567" required>
+    </div>
+
+    <button type="submit">Enviar solicitud</button>
+  </form>
+</aside>
+  </main>
+
+  <footer>
+    © 2025 Banco Avanza. Todos los derechos reservados.
+  </footer>
+</body>
+
+</html>
